@@ -1,6 +1,6 @@
 import './assets/style.css'
 import { useState } from 'react'
-import { Inputarea } from './components/index';
+import { Inputarea, Resultarea } from './components/index';
 
 
 function App() {
@@ -10,6 +10,9 @@ function App() {
       <div>
         <p>（仮）変更前</p>
         <Inputarea className="" />
+
+        <p>結果</p>
+        <Resultarea className="" />
       </div>
     </>
   )
